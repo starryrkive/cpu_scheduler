@@ -1,13 +1,30 @@
-# CPU Scheduler Simulator (C)
+# CPU Scheduler Simulator
 
-A modular CPU scheduling simulator written in C implementing core scheduling algorithms with performance metrics and Gantt chart visualization.
+An interactive terminal-based tool for studying CPU scheduling algorithms.
+
+Implements FCFS, SJF, SRTF, Round Robin, and Priority scheduling in C with Gantt chart visualization and performance metrics.
 
 ## Features
-- FCFS, SJF, SRTF
-- Round Robin (time quantum)
-- Priority Scheduling
-- Gantt Chart output
-- Waiting & Turnaround Time
-- CPU Utilization & Throughput
-- Algorithm Race Mode (comparison)
 
+- Step-by-step CPU scheduling simulation  
+- Gantt chart visualization of process execution  
+- Waiting time and turnaround time calculation   
+- Random workload generator  
+- Algorithm race mode for performance comparison  
+
+## Installation and Execution
+
+- Clone the repository  
+- Compile the program  
+- Run the simulator
+- Select scheduling algorithms and analyze results
+
+## Learning Outcomes
+- Implementing core CPU scheduling algorithms in C
+- Understanding preemptive and non-preemptive scheduling
+- Analyzing performance metrics like waiting time and turnaround time
+- Evaluating scheduler efficiency using utilization and throughput
+- Designing modular system-level programs
+
+## Author
+Suravi
